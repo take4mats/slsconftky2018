@@ -42,7 +42,7 @@ OpenFaaS
 感想
 - openfaasのメリット
   - 関数の土台を全部自分で管理できる
-  - Dockerなので、ローカルで作ってそのまま production で動かせる
+  - Dockerなので、ローカルで作ってそのまま production で動かせる
 - デメリット
   - 全部自分で見るので、大規模にやるのは辛いよ、コストかかる
   - 商用事例まだ少ない (2017年初頭〜). 国内0
@@ -87,7 +87,7 @@ Day 2. 2018/09/29 conference
 
 Azure 頑張ってる
 - Azure Function 2.0 や Azure Durable Function すごい。もしかすると AWS の Lambda や StepFunctions より良いかも
-  - Docker 上でも動く = オンプレ, IoT 端末上でも動く
+  - Docker 上でも動く = オンプレ, IoT 端末上でも動く
   - オーケストレーションが凄くシンプルに書ける
 
 +++
@@ -97,18 +97,18 @@ Azure 頑張ってる
 ---
 
 監視系の話題が多い
-- サーバーレスは開発が早いが運用監視が複雑化しがち (マイクロサービス化)
+- サーバーレスは開発が早いが運用監視が複雑化しがち (マイクロサービス化)
 - 監視のポイントも変わる
   - 従来のCPU, mem, disk監視から, 同時実行数上限, スロットリング発生, 実行時間, HTTP status code等の監視へ
 - AWS Lambda 使うなら X-Ray 使っておけ (今すぐ入れようか)
-- DataDog: マルチクラウドの統合監視 の使い勝手の良さ
+- DataDog: マルチクラウドの統合監視 の使い勝手の良さ
 
 ---
 
 その他
 - CI/CDのツールと工夫, データの持ち方
 - 日本企業にありがちな [メテオフォール型開発 に サーバーレス開発 は相性が良い！？](https://www.slideshare.net/ssuser084061/x-117338837)
- 
+
 +++
 
 ![lt_meteor_1](assets/lt_meteor_1.jpg)
@@ -129,3 +129,4 @@ Azure 頑張ってる
 ---
 
 ![venue_closing](assets/venue_closing.jpg)
+[@yoshidashingo](https://twitter.com/yoshidashingo) さんより拝借
